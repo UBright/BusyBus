@@ -2,9 +2,18 @@
 	box-sizing: border-box;
 }
 
+body{
+	font-size: 16px;
+}
+
+.fa-3x {
+	font-size: 2em;
+	top: 46%;
+}
+
 header {
 	color: white;
-	height: 115px;
+	height: 85px;
 	position: relative;
 	background-color: #333;
 }
@@ -15,17 +24,27 @@ header img {
 }
 
 header i {
-	top: 50%;
+	padding-top: 20px;
 	left: 20px;
-	line-height: 115px;
+	line-height: 75px;
 	position: absolute;
 	transform: translateY(-50%);
 }
 
 header h1 {
-	font-size: 30px;
+	font-size: 20px;
 	padding-top: 15px;
 	text-align: center;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 420px;
 }
 
 .map {
@@ -40,8 +59,8 @@ header h1 {
 }
 
 .map .location-pin {
-  left: 43%;
-  top: 29%;
+  left: 34%;
+  top: 25%;
   width: 70px;
   height: 70px;
   display: block;
@@ -107,10 +126,4 @@ footer div span.stations {
 footer div p {
 	line-height: 100px;
 	margin-top: -10px;
-}
-
-@media only screen and (max-width: 640px) {
-	.table {
-		font-size: 12px;
-	}
 }
