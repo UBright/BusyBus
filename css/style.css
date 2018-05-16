@@ -4,6 +4,9 @@
 
 body{
 	font-size: 16px;
+	width:420px;
+	margin: 0 auto;
+	border: 2px solid #333;
 }
 
 .fa-3x {
@@ -79,10 +82,12 @@ h2{
 
 table th {
 	color: #f24f0a;
+
 }
 
 table td {
 	position: relative;
+
 }
 
 table td span {
